@@ -1,6 +1,6 @@
 **Como rodar o projeto (React + Vite)**
 
-🚀 1. Pré-requisitos
+**🚀 1. Pré-requisitos**
 
 Antes de começar, você precisa ter instalado:
 
