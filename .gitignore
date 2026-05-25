@@ -1,0 +1,22 @@
+# dependências
+node_modules/
+
+# build do Vite
+dist/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# arquivos do sistema
+.DS_Store
+.vscode/
+
+# ambiente
+.env
+.env.local
+.env.*.local
+
+# cache
+.vite/
