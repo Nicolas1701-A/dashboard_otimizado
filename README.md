@@ -1,16 +1,62 @@
-# React + Vite
+Como rodar o projeto (React + Vite)
+🚀 1. Pré-requisitos
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Antes de começar, você precisa ter instalado:
 
-Currently, two official plugins are available:
+Node.js (versão LTS recomendada)
+https://nodejs.org/
+Git
+https://git-scm.com/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Para verificar se está instalado:
 
-## React Compiler
+node -v
+npm -v
+git --version
+📥 2. Clonar o repositório
+git clone https://github.com/SEU_USUARIO/dashboard-otimizado.git
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Depois entre na pasta:
 
-## Expanding the ESLint configuration
+cd dashboard-otimizado
+📦 3. Instalar dependências
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Esse comando baixa tudo que o projeto precisa:
+
+npm install
+
+👉 Se der erro (como você teve antes), use:
+
+npm install --legacy-peer-deps
+▶️ 4. Rodar o projeto em modo desenvolvimento
+npm run dev
+
+Depois abra no navegador:
+
+http://localhost:5173
+🏗️ 5. Gerar versão de produção (opcional)
+npm run build
+
+Isso cria a pasta:
+
+dist/
+👀 6. Visualizar build localmente (opcional)
+npm run preview
+🧠 Resumo rápido
+
+Sempre que for rodar o projeto no futuro:
+
+git clone <repo>
+cd dashboard-otimizado
+npm install
+npm run dev
+📌 Dica importante
+
+Como seu projeto tem:
+
+React 19
+libs como react-window
+
+Se algum dia der conflito, use:
+
+npm install --legacy-peer-deps
