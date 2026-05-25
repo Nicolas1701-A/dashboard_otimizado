@@ -15,6 +15,7 @@ npm -v
 git --version
 
 **📥 2. Clonar o repositório**
+
 git clone https://github.com/SEU_USUARIO/dashboard-otimizado.git
 
 Depois entre na pasta:
