@@ -1,4 +1,5 @@
 **Como rodar o projeto (React + Vite)**
+
 🚀 1. Pré-requisitos
 
 Antes de começar, você precisa ter instalado:
@@ -33,6 +34,7 @@ npm install
 npm install --legacy-peer-deps
 
 **▶️ 4. Rodar o projeto em modo desenvolvimento**
+
 npm run dev
 
 Depois abra no navegador:
@@ -40,6 +42,7 @@ Depois abra no navegador:
 http://localhost:5173
 
 **🏗️ 5. Gerar versão de produção (opcional)**
+
 npm run build
 
 Isso cria a pasta:
@@ -47,6 +50,7 @@ Isso cria a pasta:
 dist/
 
 **👀 6. Visualizar build localmente (opcional)**
+
 npm run preview
 
 **🧠 Resumo rápido**
